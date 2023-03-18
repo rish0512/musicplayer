@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="img/music_jpeg_4x.webp" alt="music">Music Player</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="song-list">
+            <h1>Arijit Singh Songs</h1>
+        
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="covers/0.jpg" alt="1">
+                <span class="songname" >Apna Bana Le Piya</span>
+                <span class="songlistplay"> <i id="0" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="1">
+                <span class="songname" >Kabira</span>
+                <span class="songlistplay"><i id="1" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/2.jfif" alt="1">
+                <span class="songname" >Ae Dil Hai Muskil</span>
+                <span class="songlistplay"><i id="2" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/3.jpg" alt="1">
+                <span class="songname" >Agar Tum Sath Ho</span>
+                <span class="songlistplay"> <i id="3" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/4.jfif" alt="1">
+                <span class="songname" >Humraah</span>
+                <span class="songlistplay"> <i id="4" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/5.jpg" alt="1">
+                <span class="songname" >Mast Magan</span>
+                <span class="songlistplay"> <i id="5" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/6.jfif" alt="1">
+                <span class="songname" >Tu Har Lamha</span>
+                <span class="songlistplay">  <i id="6" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/7.heic" alt="1">
+                <span class="songname">Tujhe Kitna Chahne Lage</span>
+                <span class="songlistplay"> <i id="7" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+            </div>
+            
+        </div>
+    </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward " id="next"></i>
+
+        </div>
+        <div class="songInfo">
+            <img src="gifs/playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Apna Bana Le Piya</span>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/cf46e39511.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
