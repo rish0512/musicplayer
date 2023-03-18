@@ -1,7 +1,7 @@
 console.log("Welcome to Spotify");
 //Initializing variables
 let index=0;
-let audioElement = new Audio('song/1.mp3');
+let audioElement = new Audio('1.mp3');
 let masterPlay= document.getElementById('masterPlay');
 let myProgressBar= document.getElementById('myProgressBar')
 let gif= document.getElementById('gif')
@@ -9,14 +9,14 @@ let masterSongName= document.getElementById('masterSongName')
 let songname= document.getElementsByClassName('songname')
 let songItem=Array.from(document.getElementsByClassName('songItem'))
 let songs=[
-    {songName: "Apna Bana Le Piya" , filepath:"song/1.mp3", coverPath:"covers/0.jpg"},
-    {songName: "Kabira" , filepath:"song/2.mp3", coverPath:"covers/1.jpg"},
-    {songName: "Ae Dil Hai Muskil" , filepath:"song/3.mp3", coverPath:"covers/2.jpg"},
-    {songName: "Agar Tum Sath Ho" , filepath:"song/4.mp3", coverPath:"covers/3.jpg"},
-    {songName: "Humraah" , filepath:"song/5.mp3", coverPath:"covers/4.jpg"},
-    {songName: "Mast Magan" , filepath:"song/6.mp3", coverPath:"covers/5.jpg"},
-    {songName: "Tu Har Lamha" , filepath:"song/7.mp3", coverPath:"covers/6.jpg"},
-    {songName: "Tujhe Kitna Chahne Lage" , filepath:"song/8.mp3", coverPath:"covers/7.jpg"},
+    {songName: "Apna Bana Le Piya" , filepath:"1.mp3", coverPath:"0.jpg"},
+    {songName: "Kabira" , filepath:"2.mp3", coverPath:"1.jpg"},
+    {songName: "Ae Dil Hai Muskil" , filepath:"3.mp3", coverPath:"2.jpg"},
+    {songName: "Agar Tum Sath Ho" , filepath:"4.mp3", coverPath:"3.jpg"},
+    {songName: "Humraah" , filepath:"5.mp3", coverPath:"4.jpg"},
+    {songName: "Mast Magan" , filepath:"6.mp3", coverPath:"5.jpg"},
+    {songName: "Tu Har Lamha" , filepath:"7.mp3", coverPath:"6.jpg"},
+    {songName: "Tujhe Kitna Chahne Lage" , filepath:"8.mp3", coverPath:"7.jpg"},
 ]
 
 songItem.forEach((element,i) => {
