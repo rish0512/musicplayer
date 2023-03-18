@@ -43,7 +43,7 @@ nav ul li{
     margin: 23px auto;
     border-radius: 12px;
     padding: 34px;
-    background-image: url(img/pngtree-vector-music-musical-notes-concert-poster-background-image_148377.jpg);
+    background-image: url('pngtree-vector-music-musical-notes-concert-poster-background-image_148377.jpg');
 }
 .bottom{
     position: sticky;
